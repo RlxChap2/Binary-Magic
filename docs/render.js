@@ -33,3 +33,15 @@ document.getElementById("language").addEventListener("change", function () {
 
 // Trigger the change event to set the initial state
 document.getElementById("language").dispatchEvent(new Event("change"));
+
+document.getElementById("copy-btn").addEventListener("click", function () {
+  const code = document.getElementById("raw-code").textContent; // Get the code content
+  navigator.clipboard
+    .writeText(code) // Write to clipboard
+    .then(() => {
+      alert("Code copied to clipboard!"); // Alert the user
+    })
+    .catch((err) => {
+      console.error("Failed to copy: ", err);
+    });
+});
