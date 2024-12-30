@@ -1,0 +1,35 @@
+{
+  "name": "binary-magic",
+  "version": "1.0.0",
+  "description": "A cross-language project that performs binary instructions like addition, subtraction, and multiplication using Python, JavaScript, TypeScript, C#, C++, and C.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "build": "tsc",
+    "test": "echo \"Running tests...\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RlxChap2/Binary-Magic.git"
+  },
+  "keywords": [
+    "binary-instructions",
+    "addition",
+    "subtraction",
+    "multiplication",
+    "python",
+    "javascript",
+    "typescript",
+    "csharp",
+    "cpp",
+    "c"
+  ],
+  "author": "RlxChap2",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
