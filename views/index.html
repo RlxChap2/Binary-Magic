@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary Magic - Calculator</title>
+
+    <!-- Prism.js CSS for syntax highlighting -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Optionally include a specific language theme (e.g., JavaScript) -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Binary Magic - Calculator</h1>
+
+    <!-- Language Selection Dropdown -->
+    <label for="language">Select Language:</label>
+    <select name="language" id="language">
+      <option value="ts">TypeScript</option>
+      <option value="js">JavaScript</option>
+      <option value="c">C</option>
+      <option value="cpp">C++</option>
+      <option value="cs">C#</option>
+      <option value="py">Python</option>
+    </select>
+
+    <!-- Links Section -->
+    <div class="links">
+      <p>
+        <a href="#" id="github-repo" target="_blank">GitHub Repository</a>
+      </p>
+      <p>
+        <a href="#" id="examples" target="_blank">Examples</a>
+      </p>
+    </div>
+
+    <!-- Raw Code Box Section -->
+    <div class="code-box">
+      <h3>Example Code:</h3>
+      <pre><code id="raw-code" class="language-js">// Example code will appear here...</code></pre>
+    </div>
+
+    <!-- Include Prism.js JavaScript for syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="render.js"></script>
+  </body>
+</html>
