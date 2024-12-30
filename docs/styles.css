@@ -1,23 +1,27 @@
 /* Custom scrollbar for Microsoft Edge style */
 select::-webkit-scrollbar,
-.code-box::-webkit-scrollbar {
+.code-box::-webkit-scrollbar,
+.console-box::-webkit-scrollbar {
   width: 12px;
 }
 
 select::-webkit-scrollbar-track,
-.code-box::-webkit-scrollbar-track {
+.code-box::-webkit-scrollbar-track,
+.console-box::-webkit-scrollbar-track {
   background: #f4f4f9;
   border-radius: 6px;
 }
 
 select::-webkit-scrollbar-thumb,
-.code-box::-webkit-scrollbar-thumb {
+.code-box::-webkit-scrollbar-thumb,
+.console-box::-webkit-scrollbar-thumb {
   background: #007bff;
   border-radius: 6px;
 }
 
 select::-webkit-scrollbar-thumb:hover,
-.code-box::-webkit-scrollbar-thumb:hover {
+.code-box::-webkit-scrollbar-thumb:hover,
+.console-box::-webkit-scrollbar-thumb:hover {
   background: #0056b3;
 }
 
@@ -64,7 +68,8 @@ select {
   text-decoration: underline;
 }
 
-.code-box {
+.code-box,
+.console-box {
   width: 80%;
   background-color: #2d2d2d;
   color: #f8f8f2;
@@ -75,6 +80,14 @@ select {
   font-size: 14px;
   overflow-x: auto;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Added text styling for console box */
+.console-box {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  min-height: 150px; /* Ensures enough height for console output */
+  background-color: #1e1e1e; /* Slightly darker background for better contrast */
 }
 
 pre {
