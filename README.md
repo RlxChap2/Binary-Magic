@@ -107,4 +107,4 @@ Equivalent implementations are available in Python, C#, C++, and C, ensuring con
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT [LICENCE](LICENCE).

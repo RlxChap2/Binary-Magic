@@ -1,13 +1,13 @@
 {
   "name": "binary-magic",
-  "version": "1.0.2",
+  "version": "1.0.2-1",
   "description": "A cross-language project that performs binary instructions like addition, subtraction, and multiplication using Python, JavaScript, TypeScript, C#, C++, and C.",
   "main": "index.ts",
   "scripts": {
     "start": "tsc index.ts && node index.js",
     "build": "tsc",
     "test": "echo \"Running tests...\" && exit 0",
-    "push": "git add . && git commit -m \"V1.0.2\" && git push"
+    "push": "git add . && git commit -m \"V1.0.2-1\" && git push"
   },
   "repository": {
     "type": "git",
